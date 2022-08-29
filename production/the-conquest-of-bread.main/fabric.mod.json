@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "tcob",
+  "version": "${version}",
+
+  "name": "The Conquest of Bread",
+  "description": "A village enhancement mod that adds food scarcity-based dynamics to villagers: villagers now have hunger like players, and this is satisfied by farmers, fishermen and butchers, as well as player intervention.",
+  "authors": [
+    "Delseran",
+    "Ezio",
+    "MolniyaWaltz"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tcob/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.teamordinarymagicians.tcob.TCOB"
+    ]
+  },
+  "mixins": [
+    "tcob.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
