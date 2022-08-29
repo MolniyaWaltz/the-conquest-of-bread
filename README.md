@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# The Conquest of Bread (WIP)
 
 ## Setup
 
